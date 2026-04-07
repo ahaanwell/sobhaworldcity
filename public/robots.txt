@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://sobhaworldcity.vercel.app
+Host: https://www.sobhaworldcity.com
 
 # Sitemaps
-Sitemap: https://sobhaworldcity.vercel.app/sitemap.xml
+Sitemap: https://www.sobhaworldcity.com/sitemap.xml

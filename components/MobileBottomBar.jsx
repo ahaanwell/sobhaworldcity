@@ -3,7 +3,11 @@
 import Link from "next/link";
 import { useState } from "react";
 import { FaEnvelope, FaWhatsapp } from "react-icons/fa";
-import LeadModal from "./LeadModal";
+import dynamic from "next/dynamic";
+
+const LeadModal = dynamic(() => import("./LeadModal"), {
+  ssr: false,
+});
 
 export default function MobileBottomBar() {
     const [isModalOpen, setIsModalOpen] = useState(false);

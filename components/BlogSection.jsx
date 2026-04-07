@@ -394,7 +394,7 @@ export default function BlogSection() {
                 {/* Read More */}
                 <Link
                   href={blog.link}
-                  className="bg-primary w-full rounded-md py-1.5 text-center font-medium text-md mt-auto"
+                  className="bg-primary text-white w-full rounded-md py-1.5 text-center font-medium text-md mt-auto"
                 >
                   Read More →
                 </Link>

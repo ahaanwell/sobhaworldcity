@@ -2,7 +2,11 @@
 
 import { useState, useEffect } from "react";
 import { FaPhone, FaDownload, FaMapMarkerAlt } from "react-icons/fa";
-import LeadModal from "./LeadModal";
+import dynamic from "next/dynamic";
+
+const LeadModal = dynamic(() => import("./LeadModal"), {
+  ssr: false,
+});
 
 const slides = [
   "./images/sobhaworldcity.png",
@@ -55,7 +59,7 @@ export default function HeroSection() {
       email,
       phone:number,
       country_code: countryCode,
-      company_email: "ahaanwell@gmail.com",
+      company_email: "info@searchmyspace.in",
       project_name: "Sobha World City",
     };
     try {

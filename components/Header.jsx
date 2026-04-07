@@ -5,7 +5,11 @@ import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { FaWhatsapp } from "react-icons/fa";
-import LeadModal from "./LeadModal";
+import dynamic from "next/dynamic";
+
+const LeadModal = dynamic(() => import("./LeadModal"), {
+  ssr: false,
+});
 function Header(){
     const [open, setOpen] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -19,7 +23,7 @@ function Header(){
     { name: "Floor Plan", link: "/sitefloorplan.html" },
     { name: "Master Plan", link: "/master-plan.html" },
     { name: "Location", link: "/location.html" },
-    { name: "Amenities", link: "/amenities.html" },
+    { name: "Amenities", link: "/#amenities" },
     { name: "Gallery", link: "/#gallery" },
   ];
     return(
@@ -44,7 +48,7 @@ const cleanLink = item.link.replace(".html", "");
 const isActive = cleanPath === cleanLink;
 
                 return (
-                  <Link
+                  <a
                     key={index}
                     href={item.link}
                     className={`font-medium transition px-3 py-2 ${
@@ -54,7 +58,7 @@ const isActive = cleanPath === cleanLink;
                     }`}
                   >
                     {item.name}
-                  </Link>
+                  </a>
                 );
               })}
 
@@ -71,13 +75,13 @@ const isActive = cleanPath === cleanLink;
             </nav>
 
             <div className="hidden lg:flex">
-              <Link
+              <a
                 href="https://wa.me/+919380660766?text=Hi!%20I%27m%20Interested%20In%20Sobha%20World%20City%20Please%20Share%20Details."
                 className="bg-primary text-white flex items-center gap-1 px-3 py-1 rounded-full font-medium hover:bg-[#ce3125] transition"
               >
                 <FaWhatsapp />
                 +919380660766
-              </Link>
+              </a>
             </div>
 
             <button
@@ -115,7 +119,7 @@ const isActive = cleanPath === cleanLink;
             const isActive = pathname === item.link;
 
             return (
-              <Link
+              <a
                 key={index}
                 href={item.link}
                 onClick={() => setOpen(false)}
@@ -126,7 +130,7 @@ const isActive = cleanPath === cleanLink;
                 }`}
               >
                 {item.name}
-              </Link>
+              </a>
             );
           })}
 
@@ -142,13 +146,13 @@ const isActive = cleanPath === cleanLink;
             Brochure
           </button>
 
-          <Link
+          <a
             href="https://wa.me/+919380660766?text=Hi!%20I%27m%20Interested%20In%20Sobha%20World%20City%20Please%20Share%20Details."
             className="flex justify-center items-center gap-2 bg-primary text-white py-2 rounded-full mt-6"
           >
             <FaWhatsapp />
             +919380660766
-          </Link>
+          </a>
         </div>
       </div>
 

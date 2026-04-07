@@ -2,7 +2,11 @@
 "use client";
 import { useState } from "react";
 import { FaDownload } from "react-icons/fa";
-import LeadModal from "./LeadModal";
+import dynamic from "next/dynamic";
+
+const LeadModal = dynamic(() => import("./LeadModal"), {
+  ssr: false,
+});
 
 export default function MasterPlanSection() {
   const [isHover, setIsHover] = useState(false);

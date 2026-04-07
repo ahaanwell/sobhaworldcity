@@ -1,6 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
-import LeadModal from "@/components/LeadModal";
+import dynamic from "next/dynamic";
+
+const LeadModal = dynamic(() => import("@/components/LeadModal"), {
+  ssr: false,
+});
 import PageHero from "@/components/PageHero";
 import Image from "next/image";
 import Link from "next/link";

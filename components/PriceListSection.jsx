@@ -3,7 +3,11 @@
 import { useState } from "react";
 import { FaDownload } from "react-icons/fa";
 import EMICalculator from "./EMICalculator";
-import LeadModal from "./LeadModal";
+import dynamic from "next/dynamic";
+
+const LeadModal = dynamic(() => import("./LeadModal"), {
+  ssr: false,
+});
 
 const priceData = [
   { type: "2 BHK", size: "1150 - 1250 Sq. Ft", price: "₹ 1.45 Cr* onwards" },

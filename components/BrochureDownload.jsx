@@ -43,7 +43,7 @@ export default function BrochureDownload({
       name,
       email,
       phone: number,
-      company_email: "ahaanwell@gmail.com",
+      company_email: "info@searchmyspace.in",
       project_name: "Sobha World City",
     };
 
@@ -128,7 +128,7 @@ export default function BrochureDownload({
             <button
               type="submit"
               disabled={loading}
-              className="w-full bg-white font-bold py-1.5 rounded-lg transition duration-200 text-sm disabled:opacity-70 cursor-pointer"
+              className="w-full bg-white text-white font-bold py-1.5 rounded-lg transition duration-200 text-sm disabled:opacity-70 cursor-pointer"
             >
               <span className="text-primary">
                 {loading ? "Downloading..." : "Download"}

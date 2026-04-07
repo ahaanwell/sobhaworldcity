@@ -53,10 +53,9 @@ export default function LeadModal({
       email,
       phone: number,
       country_code: countryCode,
-      company_email: "ahaanwell@gmail.com",
+      company_email: "info@searchmyspace.in",
       project_name: "Sobha World City",
     };
-    // info@searchmyspace.in
 
     try {
       const res = await fetch(
@@ -213,22 +212,22 @@ export default function LeadModal({
               </button>
 
               <div className="flex gap-3">
-                <Link
+                <a
                   href="https://wa.me/+919380660766?text=Hi!%20I%27m%20Interested%20In%20Sobha%20World%20City%20Please%20Share%20Details."
                   target="_blank"
                   className="flex-1 flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white py-2 rounded-md text-sm"
                 >
                   <FaWhatsapp />
                   WhatsApp
-                </Link>
+                </a>
 
-                <Link
+                <a
                   href="tel:+919380660766"
                   className="flex-1 flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-md text-sm"
                 >
                   <FaPhone />
                   Call Now
-                </Link>
+                </a>
               </div>
             </form>
           </div>

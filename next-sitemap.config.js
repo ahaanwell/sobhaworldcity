@@ -1,10 +1,12 @@
 /** @type {import('next-sitemap').IConfig} */
 const config = {
-  siteUrl: "https://sobhaworldcity.vercel.app",
+  siteUrl: "https://www.sobhaworldcity.com",
   generateRobotsTxt: true,
 
+  generateIndexSitemap: false,
+  sitemapSize: 50000,
+
   transform: async (config, path) => {
-    // Skip homepage
     if (path === "/") {
       return {
         loc: config.siteUrl,
@@ -14,8 +16,10 @@ const config = {
       };
     }
 
+    const cleanPath = path.endsWith("/") ? path.slice(0, -1) : path;
+
     return {
-      loc: `${config.siteUrl}${path}.html`, // 👈 add .html here
+      loc: `${config.siteUrl}${cleanPath}.html`, 
       changefreq: "weekly",
       priority: 0.7,
       lastmod: new Date().toISOString(),

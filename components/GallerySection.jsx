@@ -1,16 +1,18 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 import { FaTimes, FaChevronLeft, FaChevronRight, FaExpand } from "react-icons/fa";
 
 const galleryImages = [
-  { id: 1,  src: "./images/sobhaworldcity.png",  alt: "gallery 1" },
-  { id: 2,  src: "./images/galleryimg2.webp",  alt: "gallery 2" },
-  { id: 3,  src: "./images/galleryimg4.webp",  alt: "gallery 3" },
-  { id: 4,  src: "./images/galleryimg5.webp",  alt: "gallery 4" },
-  { id: 5,  src: "./images/galleryimg6.webp",  alt: "gallery 5" },
-  { id: 6,  src: "./images/galleryimg7.webp",  alt: "gallery 6" },
-  { id: 7,  src: "./images/about-sobhaworldcity.webp",  alt: "gallery 7" },
+  { id: 1,  src: "/images/sobhaworldcity.png",  alt: "gallery 1" },
+  { id: 2,  src: "/images/galleryimg2.webp",  alt: "gallery 2" },
+  { id: 3,  src: "/images/galleryimg4.webp",  alt: "gallery 3" },
+  { id: 4,  src: "/images/galleryimg5.webp",  alt: "gallery 4" },
+  { id: 5,  src: "/images/galleryimg6.webp",  alt: "gallery 5" },
+  { id: 6,  src: "/images/galleryimg7.webp",  alt: "gallery 6" },
+  { id: 7,  src: "/images/about-sobhaworldcity.webp",  alt: "gallery 7" },
+  { id: 8,  src: "/images/sobha-world-city.jpg",  alt: "gallery 8" },
 ];
 
 export default function GallerySection() {
@@ -58,11 +60,12 @@ export default function GallerySection() {
               onClick={() => openLightbox(index)}
             >
               <div className="aspect-[4/3] bg-gray-100 overflow-hidden">
-                <img
+                <Image
                   src={img.src}
                   alt={img.alt}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                  loading="lazy"
+                  fill
+                  priority
                 />
               </div>
 
@@ -106,10 +109,12 @@ export default function GallerySection() {
             className="max-w-4xl w-full max-h-[85vh] flex items-center justify-center"
             onClick={(e) => e.stopPropagation()}
           >
-            <img
+            <Image
               src={galleryImages[lightboxIndex].src}
               alt={galleryImages[lightboxIndex].alt}
               className="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl"
+              fill
+              priority
             />
           </div>
 

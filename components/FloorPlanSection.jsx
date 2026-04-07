@@ -3,7 +3,11 @@
 
 import { useState } from "react";
 import { FaDownload, FaPhone } from "react-icons/fa";
-import LeadModal from "./LeadModal";
+import dynamic from "next/dynamic";
+
+const LeadModal = dynamic(() => import("./LeadModal"), {
+  ssr: false,
+});
 
 const floorPlans = [
   {

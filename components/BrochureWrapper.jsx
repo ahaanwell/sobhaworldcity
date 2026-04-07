@@ -2,7 +2,11 @@
 
 import { useState } from "react";
 import BrochureDownload from "./BrochureDownload";
-import LeadModal from "./LeadModal";
+import dynamic from "next/dynamic";
+
+const LeadModal = dynamic(() => import("./LeadModal"), {
+  ssr: false,
+});
 
 export default function BrochureWrapper() {
   const [openPanel, setOpenPanel] = useState(null);
@@ -30,7 +34,7 @@ export default function BrochureWrapper() {
         onClick={() => {
                   setIsModalOpen(true);
                 }}
-        className="bg-primary px-2 py-1 text-white rotate-[270deg] cursor-pointer">Enquiry Now</button>
+        className="btn-gradient-animation px-2 py-1 text-white rotate-[270deg] cursor-pointer">Enquiry Now</button>
       </div>
       <LeadModal
               isOpen={isModalOpen}
