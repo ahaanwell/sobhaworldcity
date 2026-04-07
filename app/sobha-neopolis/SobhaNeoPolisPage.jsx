@@ -7,7 +7,7 @@ function SobhaNeoPolisPage() {
         <div>
           <PageHero title={"Sobha Neopolis"} />
         </div>
-        <div className="space-y-6 max-w-5xl mx-auto py-10">
+        <div className="space-y-6 max-w-5xl mx-auto py-10 text-gray-700">
 
     <h1 className="text-3xl md:text-4xl font-bold mb-6">
       Sobha Neopolis – Stylish Living on Panathur Road, Bangalore

@@ -7,7 +7,7 @@ function RentPage() {
         <div>
           <PageHero title={"Rent"} />
         </div>
-        <div className="space-y-6 max-w-5xl mx-auto py-10">
+        <div className="space-y-6 max-w-5xl mx-auto py-10 text-gray-700">
             <h1 className="text-3xl font-bold text-gray-900">
             Sobha World City Rent: A Smart Choice for Living in a Modern City
         </h1>

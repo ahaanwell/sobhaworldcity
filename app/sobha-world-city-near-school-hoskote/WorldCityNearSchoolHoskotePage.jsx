@@ -7,7 +7,7 @@ function SobhaInsigniaPage() {
         <div>
           <PageHero title={"Sobha World City Near School Hoskote, Near IT Hubs"} />
         </div>
-        <div className="space-y-6 max-w-5xl mx-auto py-10">
+        <div className="space-y-6 max-w-5xl mx-auto py-10 text-gray-700">
             <div class="mb-8">
     <h1 class="text-3xl font-bold mb-4 text-gray-900">Sobha World City Near School Hoskote, Near IT Hubs – A Smart Choice for Your Family</h1>
     <img src="../images/school-hoskote.jpeg" alt="Sobha World City Near School Hoskote" class="w-full mb-6"/>

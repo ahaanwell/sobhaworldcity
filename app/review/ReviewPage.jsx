@@ -7,7 +7,7 @@ function ReviewPage() {
         <div>
           <PageHero title={"Review"} />
         </div>
-        <div className="space-y-6 max-w-5xl mx-auto py-10">
+        <div className="space-y-6 max-w-5xl mx-auto py-10 text-gray-700">
             <h1 className="text-3xl font-bold mb-6 text-gray-900">
       Sobha World City Review — A Detailed and Friendly Look at East Bangalore’s Premium Township
     </h1>

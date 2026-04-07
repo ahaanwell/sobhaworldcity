@@ -7,7 +7,7 @@ function BrochurePdfDownloadPage() {
         <div>
           <PageHero title={"Brochure PDF Download"} />
         </div>
-        <div className="space-y-6 max-w-5xl mx-auto py-10">
+        <div className="space-y-6 max-w-5xl mx-auto py-10 text-gray-700">
         <h1 className="text-3xl font-bold mb-6">Sobha World City Brochure PDF Download</h1>
         <img src="/images/brochure-pdf-download.jpeg" alt="Sobha World City Brochure PDF Download" className="w-full mb-6"/>
         <p className="mb-4">

@@ -7,7 +7,7 @@ function GoodToInvestPage() {
         <div>
           <PageHero title={"Is It Good to Invest in Sobha World City?"} />
         </div>
-        <div className="space-y-6 max-w-5xl mx-auto py-10">
+        <div className="space-y-6 max-w-5xl mx-auto py-10 text-gray-700">
         <h1 className="text-3xl font-bold text-gray-900">Is It Good to Invest in Sobha World City?</h1>
     <img src="/images/invest-in-sobha-world-city.jpeg" alt="Invest" className="w-full mb-6"/>
     <p className="text-gray-700 leading-relaxed">

@@ -72,10 +72,9 @@ export default function ConstructionUpdate() {
                 key={item.id}
                 className="group relative w-full h-[200px] rounded-lg overflow-hidden shadow-md"
               >
-                <Image
+                <img
                   src={item.image}
                   alt={`${item.title} - Sobha World City Construction Update`}
-                  fill
                   className="object-cover group-hover:scale-110 transition duration-300"
                 />
 

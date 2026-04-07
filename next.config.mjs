@@ -7,7 +7,7 @@
 
 
 const nextConfig = {
-  output: "export", // 👈 important
+  output: "export",
   trailingSlash: false,
 };
 

@@ -7,7 +7,7 @@ function SobhaUpcomingProjectSouthPage() {
         <div>
           <PageHero title={"Sobha World City Upcoming Projects in South Bangalore"} />
         </div>
-        <div className="space-y-6 max-w-5xl mx-auto py-10">
+        <div className="space-y-6 max-w-5xl mx-auto py-10 text-gray-700">
         <h1 className="text-3xl font-bold text-gray-900">Sobha Upcoming Project in South Bangalore</h1>
     <img src="/images/upcoming-project-in-south-bangalore.jpeg" alt="Sobha Upcoming Project" className="w-full mb-6"/>
     <p className="text-gray-700 leading-relaxed">

@@ -7,7 +7,7 @@ function SobhaSiliconOasisPage() {
         <div>
           <PageHero title={"Sobha Silicon Oasis"} />
         </div>
-        <div className="space-y-6 max-w-5xl mx-auto py-10">
+        <div className="space-y-6 max-w-5xl mx-auto py-10 text-gray-700">
 
     <div className="mb-10">
       <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">

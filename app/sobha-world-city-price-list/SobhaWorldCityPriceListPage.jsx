@@ -7,7 +7,7 @@ function SobhaWorldCityPriceListPage() {
         <div>
           <PageHero title={"Sobha World City Price List"} />
         </div>
-        <div className="space-y-6 max-w-5xl mx-auto py-10">
+        <div className="space-y-6 max-w-5xl mx-auto py-10 text-gray-700">
         <h1 className="text-3xl font-bold mb-4">Sobha World City Price List: A Full Guide to Prices, Features, and Value</h1>
     <img src="/images/price-list.jpeg" alt="Price List" className="w-full mb-6"/>
     <p>For those who want to buy a high-end home in Bangalore, knowing the <a href="https://www.sobhaworldcity.com/price.html"><b>Sobha World City Price List</b></a> is the first thing

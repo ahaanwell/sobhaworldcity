@@ -7,7 +7,7 @@ function CompletedProjectsPage() {
         <div>
           <PageHero title={"Sobha World City Completed Projects in East Bangalore"} />
         </div>
-        <div className="space-y-6 max-w-5xl mx-auto py-10">
+        <div className="space-y-6 max-w-5xl mx-auto py-10 text-gray-700">
         <h1 className="text-2xl md:text-3xl font-bold text-black">
             Sobha World City Completed Projects in East Bangalore
         </h1>

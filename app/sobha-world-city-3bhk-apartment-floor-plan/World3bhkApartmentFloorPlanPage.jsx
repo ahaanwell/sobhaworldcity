@@ -7,7 +7,7 @@ function World3bhkApartmentFloorPlanPage() {
         <div>
           <PageHero title={"Sobha World City 3BHK Apartment Floor Plan"} />
         </div>
-        <div className="space-y-6 max-w-5xl mx-auto py-10">
+        <div className="space-y-6 max-w-5xl mx-auto py-10 text-gray-700">
         <h1 className="text-3xl font-bold text-gray-900">Sobha World City 3 BHK Apartment Floor Plan</h1>
     <img src="/images/3-bhk-apartment-floor-plan.jpeg" alt="3 BHK Apartment Floor Plan" className="w-full mb-6"/>
     <p className="text-gray-700 leading-relaxed">

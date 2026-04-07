@@ -7,7 +7,7 @@ function SobhaLimitedPage() {
         <div>
           <PageHero title={"Sobha Limited"} />
         </div>
-        <div className="space-y-6 max-w-5xl mx-auto py-10">
+        <div className="space-y-6 max-w-5xl mx-auto py-10 text-gray-700">
         <h1 className="text-3xl font-bold text-gray-900">Sobha Limited</h1>
         <img src="/images/sobha-limited.jpeg" alt="Sobha Limited" className="w-full mb-6"/>
     <p className="text-gray-700 leading-relaxed">
