@@ -372,10 +372,10 @@ export default function BlogSection() {
               
               {/* Image */}
               <div className="relative w-full h-[200px] overflow-hidden">
-                <Image
+                <img
                   src={blog.image}
                   alt={`${blog.title} - Sobha World City Blog`}
-                  fill
+                  // fill
                   className="object-cover group-hover:scale-110 transition duration-300"
                 />
               </div>

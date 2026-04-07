@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 const config = {
-  siteUrl: "https://www.sobhaworldcity.com",
+  siteUrl: "https://sobhaworldcity.vercel.app",
   generateRobotsTxt: true,
 
   transform: async (config, path) => {

@@ -15,11 +15,11 @@ function Header(){
 
   const navLinks = [
     { name: "Home", link: "/" },
-    { name: "Price", link: "/price" },
-    { name: "Floor Plan", link: "/sitefloorplan" },
-    { name: "Master Plan", link: "/master-plan" },
-    { name: "Location", link: "/location" },
-    { name: "Amenities", link: "/amenities" },
+    { name: "Price", link: "/price.html" },
+    { name: "Floor Plan", link: "/sitefloorplan.html" },
+    { name: "Master Plan", link: "/master-plan.html" },
+    { name: "Location", link: "/location.html" },
+    { name: "Amenities", link: "/amenities.html" },
     { name: "Gallery", link: "/#gallery" },
   ];
     return(
@@ -38,7 +38,10 @@ function Header(){
 
             <nav className="hidden lg:flex items-center space-x-2">
               {navLinks.map((item, index) => {
-                const isActive = pathname === item.link;
+                const cleanPath = pathname.replace(".html", "");
+const cleanLink = item.link.replace(".html", "");
+
+const isActive = cleanPath === cleanLink;
 
                 return (
                   <Link
