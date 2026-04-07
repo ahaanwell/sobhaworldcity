@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.sobhaworldcity.com
+
+# Sitemaps
+Sitemap: https://www.sobhaworldcity.com/sitemap.xml
