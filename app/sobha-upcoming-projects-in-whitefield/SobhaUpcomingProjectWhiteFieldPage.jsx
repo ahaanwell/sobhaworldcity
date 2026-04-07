@@ -1,0 +1,115 @@
+/* eslint-disable react/no-unescaped-entities */
+import PageHero from "@/components/PageHero";
+
+function SobhaUpcomingProjectWhiteFieldPage() {
+    return(
+      <main className="w-full bg-white px-4 md:px-0">
+        <div>
+          <PageHero title={"Sobha Upcoming Projects in Whitefield"} />
+        </div>
+        <div className="space-y-6 max-w-5xl mx-auto py-10">
+        <h1 className="text-3xl font-bold text-gray-900">
+                Sobha Upcoming Projects in Whitefield
+            </h1>
+            <img src="/images/sobha-upcoming-projects-in-whitefield.jpeg" alt="Sobha Upcoming Projects in Whitefield"
+                className="w-full mb-6"/>
+
+            <p className="text-gray-700 leading-relaxed">
+                <b>Sobha upcoming projects in Whitefield</b> are gaining massive attention from homebuyers and real
+                estate investors looking for premium living spaces in <a
+                    href="https://www.sobhaworldcity.com/blog/east-bangalore.html"><b>East Bangalore</b></a>. Whitefield
+                has transformed into one of Bengaluru’s most dynamic residential and commercial corridors, offering a
+                perfect blend of employment hubs, modern infrastructure, and lifestyle conveniences. With Sobha
+                Limited’s strong legacy of quality construction and timely delivery, upcoming launches around Whitefield
+                are expected to redefine luxury living once again.
+                This blog provides a detailed overview of why Whitefield remains a preferred destination and how Sobha
+                World City, an upcoming township in Hoskote, East Bangalore, fits perfectly into the Whitefield growth
+                story.
+            </p>
+
+            <h2 className="text-2xl font-semibold text-gray-900">
+                Why Whitefield is a top choice for Sobha upcoming projects
+            </h2>
+
+            <p className="text-gray-700 leading-relaxed">
+                Whitefield is no longer just an IT destination—it is now a self-sustained urban zone. The presence of
+                leading IT parks, multinational companies, international schools, healthcare facilities, malls, and
+                entertainment hubs makes it ideal for professionals and families alike.
+                Key reasons why buyers are actively searching for Sobha upcoming projects in Whitefield include:
+            </p>
+
+            <ul className="list-disc pl-6 text-gray-700 space-y-1">
+                <li>Excellent proximity to major IT corridors and business parks</li>
+                <li>Strong rental demand and long-term appreciation potential</li>
+                <li>Well-developed social infrastructure</li>
+                <li>Seamless connectivity to KR Puram, Marathahalli, and other key areas of Bangalore</li>
+            </ul>
+
+            <p className="text-gray-700 leading-relaxed">
+                Due to limited land availability in core Whitefield, new projects by reputed developers like Sobha are
+                highly valued and often focus on premium planning and superior specifications.
+            </p>
+
+            <h2 className="text-2xl font-semibold text-gray-900">
+                Sobha’s presence in the Whitefield region
+            </h2>
+
+            <p className="text-gray-700 leading-relaxed">
+                Sobha Limited has already established itself as a trusted name in East Bangalore with high-quality
+                residential developments. Projects in and around Whitefield are known for their thoughtful layouts,
+                elegant architecture, and long-lasting construction quality. This strong brand presence further boosts
+                confidence among buyers exploring Sobha’s upcoming offerings in this zone.
+                For those looking beyond immediate Whitefield boundaries, Sobha is also expanding strategically toward
+                emerging micro-markets that promise future growth—this is where Sobha World City becomes extremely
+                relevant.
+            </p>
+
+            <h2 className="text-2xl font-semibold text-gray-900">
+                Sobha World City – Upcoming township near Whitefield (Hoskote, East Bangalore)
+            </h2>
+
+            <p className="text-gray-700 leading-relaxed">
+                <a href="https://www.sobhaworldcity.com/"><strong>Sobha World City</strong></a> is an upcoming
+                large-scale township by Sobha Limited, located in Hoskote, East Bangalore. Though not situated directly
+                in Whitefield, the project is closely connected to the Whitefield growth corridor, making it an
+                attractive option for buyers who work or invest in East Bangalore.
+                Hoskote is rapidly developing into a major residential hub due to better road connectivity, upcoming
+                infrastructure projects, and expanding industrial and commercial activity. Sobha World City is planned
+                as an integrated township that focuses on spacious living, open green spaces, and modern lifestyle
+                amenities—features that are increasingly difficult to find within core Whitefield.
+            </p>
+
+            <h2 className="text-2xl font-semibold text-gray-900">
+                Why Sobha World City is ideal for Whitefield-focused buyers
+            </h2>
+
+            <ul className="list-disc pl-6 text-gray-700 space-y-1">
+                <li>Larger township layout compared to typical Whitefield projects</li>
+                <li>Lower entry pricing compared to central Whitefield properties</li>
+                <li>Better scope for long-term capital appreciation</li>
+                <li>Ideal for families looking for peaceful surroundings without compromising connectivity</li>
+            </ul>
+
+            <p className="text-gray-700 leading-relaxed">
+                <strong>Sobha World City</strong> is expected to offer a well-planned residential ecosystem that aligns
+                with Sobha’s global construction standards, making it suitable for both end-users and investors.
+            </p>
+
+            <h2 className="text-2xl font-semibold text-gray-900">
+                The future of Sobha projects in East Bangalore
+            </h2>
+
+            <p className="text-gray-700 leading-relaxed">
+                Whitefield continues to be one of the strongest real estate markets in Bangalore, and demand for
+                <b>Sobha upcoming projects in Whitefield</b> remains consistently high. While premium developments
+                within Whitefield cater to immediate lifestyle needs, projects like <a href="https://www.sobhaworldcity.com/blog/about-hostoke.html"><b>Sobha World City in Hoskote</b></a>
+                represent the future expansion of East Bangalore—offering scale, affordability, and long-term value.
+            </p>
+
+  </div>
+      </main>
+        
+    )
+};
+
+export default SobhaUpcomingProjectWhiteFieldPage;
